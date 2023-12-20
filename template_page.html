@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+        <div class="nav">
+            <img src="images/bmw_logo_PNG19705.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Modal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu-icon-8.png" class="manu-logo" onclick="togglemenu()">
+            </div>
+            <div class="main">
+                <div class="left">
+                    <h1>CREATE A PROJECT</h1>
+                    <P>TEMPLATE DESINED BY ARPIT CHAUHAN</P>
+                    <h2>MORE ADD.</h2>
+                    <button type="button">JOIN ME<img src="images/R.png"></button>
+                </div>
+                <div class="right">
+                    <img src="images/R (1).png">
+                    <div class="color-box"></div>
+                </div>
+            </div>
+            <div class="header">
+                <i class="ri-facebook-line"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-twitter-line"></i>
+                <i class="ri-github-line"></i>
+            </div>
+    </div>
+    <script>
+        let menulist=document.getElementById("menulist")
+        menulist.style.maxHeight="0px"
+        function togglemenu(){
+            if(menulist.style.maxHeight=="0px"){
+                menulist.style.maxHeight="400px"
+            }
+            else{
+                menulist.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+</html>
